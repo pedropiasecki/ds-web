@@ -1,0 +1,18 @@
+body {
+    background-color: #eeeeee;
+}
+
+#nome {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+
+.informacoes {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.subinformacao {
+    font-size: 15px;
+    text-indent: 10px;
+}

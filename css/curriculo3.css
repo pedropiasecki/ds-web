@@ -1,0 +1,37 @@
+body {
+    background-size: 800px;
+    background-image: url(aula_imagens/imagens/bg-curriculo.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: right bottom;
+    margin: 20px 300px 20px 300px;
+}
+
+#nome {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    padding: 10px;
+    text-align: left;
+    font-weight: 200;
+
+}
+
+#foto {
+    width: 150px;
+    float: left;
+}
+
+hr {
+    margin:10px 0px 10px 0px;
+}
+
+.informacoes {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.subinformacao {
+    font-size: 15px;
+    text-indent: 10px;
+}

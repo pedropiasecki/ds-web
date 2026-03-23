@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Overflow</title>
+    <style>
+        .container {
+            border: 2px solid black;
+            background-color: rgba(255, 0, 0, .5);
+            padding: 16px;
+            width: 300px;
+            height: 300px;
+            margin-bottom: 16px;
+        }
+
+        .item {
+            background-color: khaki;
+            margin-bottom: 10px;
+            padding: 5px ;
+        }
+
+        .fit-content {
+            width: fit-content;
+        }
+
+        .min-content {
+            width: min-content;
+        }
+
+        .max-content {
+            width: max-content;
+            position: fixed;
+        }
+
+        .overflow-hidden {
+            overflow: hidden;
+        }
+
+        .overflow-scroll {
+            overflow: scroll;
+        }
+
+        .overflow-y-auto {
+            overflow: auto;
+        }
+
+        .overflow-visible {
+            overflow: visible;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container fit-content overflow-auto">
+        <p class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima inventore dolor modi atque. Odit fugit
+            debitis exercitationem atque animi dolore iusto fuga ipsam doloribus quo rem quos, nam molestias culpa?</p>
+        <p class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, rem.</p>
+        <p class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus possimus quos eveniet. Eveniet eum
+            asperiores magnam consectetur voluptas ullam magni.</p>
+        <p class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit cumque nisi aperiam beatae? Adipisci, deleniti
+            molestias tempore ullam blanditiis fugiat eum et maxime asperiores, similique laborum maiores quam
+            reprehenderit officiis quis voluptate facilis illum sunt nostrum praesentium alias iste doloribus
+            consequatur consequuntur? Vitae sed possimus, reiciendis distinctio necessitatibus minima quidem!</p>
+    </div>
+    <div class="container min-content overflow-y-auto">
+        <p class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima inventore dolor modi atque. Odit fugit
+            debitis exercitationem atque animi dolore iusto fuga ipsam doloribus quo rem quos, nam molestias culpa?</p>
+        <p class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, rem.</p>
+        <p class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus possimus quos eveniet. Eveniet eum
+            asperiores magnam consectetur voluptas ullam magni.</p>
+        <p class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit cumque nisi aperiam beatae? Adipisci, deleniti
+            molestias tempore ullam blanditiis fugiat eum et maxime asperiores, similique laborum maiores quam
+            reprehenderit officiis quis voluptate facilis illum sunt nostrum praesentium alias iste doloribus
+            consequatur consequuntur? Vitae sed possimus, reiciendis distinctio necessitatibus minima quidem!</p>
+    </div>
+
+    <div class="container max-content">
+        <p class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima inventore dolor modi atque. Odit fugit
+            debitis exercitationem atque animi dolore iusto fuga ipsam doloribus quo rem quos, nam molestias culpa?</p>
+        <p class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, rem.</p>
+        <p class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus possimus quos eveniet. Eveniet eum
+            asperiores magnam consectetur voluptas ullam magni.</p>
+        <p class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit cumque nisi aperiam beatae? Adipisci, deleniti
+            molestias tempore ullam blanditiis fugiat eum et maxime asperiores, similique laborum maiores quam
+            reprehenderit officiis quis voluptate facilis illum sunt nostrum praesentium alias iste doloribus
+            consequatur consequuntur? Vitae sed possimus, reiciendis distinctio necessitatibus minima quidem!</p>
+    </div>
+</body>
+
+</html>

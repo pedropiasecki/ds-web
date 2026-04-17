@@ -104,9 +104,9 @@ main {
     padding: 10px;
     display: flex;
     align-items: center;
-    background-color: rgb(217, 217, 214);
+    background-color: rgb(238, 238, 238);
     border-radius: 20px;
-    height: 5vh;
+    height: 4vh;
     width: 38vw;
     margin: 0 auto;
 }
@@ -129,7 +129,7 @@ main {
     align-items: center;
     justify-content: space-between;
     width: 40vw;
-    height: 15vh;
+    height: 12vh;
 }
 
 .pronunciation .name {
@@ -198,7 +198,7 @@ main {
 
 .meaning-noun li {
     opacity: 80%;
-    font-size: 1.4em;
+    font-size: 1.6em;
     padding: 1px 0;
 }
 
@@ -262,13 +262,16 @@ main {
 
 .meaning-verb li {
     opacity: 80%;
-    font-size: 1.4em;
+    font-size: 1.8em;
     padding: 1px 0;
 }
 
 .meaning-verb p {
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 15px;
     opacity: 50%;
-    font-size: 1.4em;
+    font-size: 1.8em;
 }
 
 .meaning-verb ul li::marker {

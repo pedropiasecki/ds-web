@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Informações</title>
+    <link rel="stylesheet" href="informacoes.css">
+</head>
+<body>
+    <form action="#" autocomplete="off">
+        <fieldset>
+            <legend>Personal Data</legend>
+            <div>
+                <div class="row">
+                    <input type="text" name="name" id="name" required placeholder="Full name">
+                    <input type="text" name="cpf" id="cpf" required placeholder="CPF">
+                </div>
+
+                <div class="row">
+                    <input type="date" name="date" id="date" required placeholder="date of Birth">
+                    <input type="number" name="phone" id="phone" required placeholder="Phone Number">
+                </div>
+            </div>
+
+            <legend>Adress</legend>
+            <div>
+                <div class="row">
+                    <input type="number" name="cep" id="cep" required placeholder="Zip Code (CEP)">
+                    <input type="text" name="street" id="street" required placeholder="Street">
+                </div>
+
+                <div class="row">
+                    <input type="text" name="state" id="state" required placeholder="State">
+                    <input type="text" name="city" id="city" required placeholder="City">
+                </div>
+            </div>
+
+            <legend>Professional Data</legend>
+            <div>
+                <div class="row">
+                    <input type="text" name="company" id="company" required placeholder="Company">
+                    <input type="text" name="job-title" id="job-title" required placeholder="Job Title">
+                </div>
+
+                <div class="row">
+                    <input type="text" name="jon" id="job" required placeholder="Job">
+                    <input type="text" name="linkedin" id="linkedin" required placeholder="Linkedin URL">
+                </div>
+            </div>
+            <button type="submit" class="btn">Create Account</button>
+        </fieldset>
+    </form>
+</body>
+</html>

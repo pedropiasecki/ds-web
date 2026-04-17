@@ -1,0 +1,101 @@
+html {
+    background-color: #f4f4f4;
+    font-family: sans-serif;
+    color: #fff
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+form {
+    width: 80%;
+    border-radius: 30px;
+    min-width: 20vw;
+    max-width: 30vw;
+    background-color: #ffffff;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+label, input, textarea {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1em;
+}
+
+input, textarea {
+    margin: 0;
+    background-color: rgba(0, 0, 0, .3);
+    border: 2px solid transparent;
+    border-bottom-color: #bbb;
+    padding: .75em;
+    margin: 0;
+    color: rgb(0, 0, 0);
+    outline: 0;
+}
+
+legend {
+    text-align: center;
+    padding: 1em 0;
+    font-weight: bold;
+    color: #000000;
+    font-size: 2em;
+    padding-bottom: 1em;
+}
+
+div {
+    padding-bottom: 1em;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+    color: black;
+    font-weight: 200;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    gap: 3em;
+    height: 4em;
+    background-color: #f0f0f0;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.btn {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    background-color: #2242e4;
+    color: #fff;
+    cursor: pointer;
+    padding: 0.5em;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: none;
+}
+
+input:invalid:focus, textarea:invalid:focus {
+    border-bottom: 2px solid #ff000d;
+}
+
+input:valid:focus, textarea:valid:focus {
+    border-bottom: 2px solid #0ec72a;
+}
